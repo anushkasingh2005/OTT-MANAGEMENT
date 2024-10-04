@@ -1,0 +1,23 @@
+.ott-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: paleturquoise;
+}
+
+.ott-card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.ott-card img {
+    max-width: 100px;
+}
+
+.h1{
+    text-decoration: underline;
+    color: blueviolet;
+}

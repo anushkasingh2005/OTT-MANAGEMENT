@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OTT Management System</title>
+    <link rel="stylesheet" href="ottplatform.css">
+</head>
+<body>
+    <h1>OTT MANAGEMENT SYSTEM</h1>
+    <div class="ott-container">
+        <div class="ott-card">
+            <img src="https://img.etimg.com/thumb/width-420,height-315,imgsize-17376,resizemode-75,msid-94945321/news/international/us/netflix-launches-new-profile-transfer-feature-details-here.jpg" alt="Netflix Logo">
+            <h2>Netflix</h2>
+            <input type="number" id="netflix-validity" placeholder="Validity (months)">
+            <button onclick="calculateNetflixCost()">Calculate</button>
+            <p id="netflix-cost"></p>
+        </div>
+        <div class="ott-card">
+            <img src="https://static.vecteezy.com/system/resources/previews/046/437/251/non_2x/amazon-prime-logo-free-png.png" alt="Amazon Prime Logo">
+            <h2>Amazon Prime</h2>
+            <input type="number" id="amazon-prime-validity" placeholder="Validity (months)">
+            <button onclick="calculateAmazonPrimeCost()">Calculate</button>
+            <p id="amazon-prime-cost"></p>
+        </div>
+        <div class="ott-card">
+            <img src="https://static.vecteezy.com/system/resources/previews/046/437/282/non_2x/disney-plus-hotstar-app-icon-free-png.png" alt="Hotstar Logo">
+            <h2>Hotstar</h2>
+            <input type="number" id="hotstar-validity" placeholder="Validity (months)">
+            <button onclick="calculateHotstarCost()">Calculate</button>
+            <p id="hotstar-cost"></p>
+        </div>
+        <div class="ott-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/MX_Player_Logo.png" alt="MX Player Logo">
+            <h2>MX Player</h2>
+            <input type="number" id="mx-player-validity" placeholder="Validity (months)">
+            <button onclick="calculateMXPlayerCost()">Calculate</button>
+            <p id="mx-player-cost"></p>
+        </div>
+        <div class="ott-card">
+            <img src="https://etimg.etb2bimg.com/photo/104130705.cms" alt="Sony LIV Logo">
+            <h2>Sony LIV</h2>
+            <input type="number" id="sony-liv-validity" placeholder="Validity (months)">
+            <button onclick="calculateSonyLIVCost()">Calculate</button>
+            <p id="sony-liv-cost"></p>
+        </div>
+    </div>
+    <script src="ottplatform.js"></script>
+</body>
+</html>
